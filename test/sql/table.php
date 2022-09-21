@@ -1,6 +1,5 @@
 <?php
-//数据库名称:root 密码:123456 数据库用zmk_db
-$con = mysqli_connect("localhost","root","123456","zmk_db");
+$con = mysqli_connect("localhost","","","zmk_db");
 if (!$con)
   {
   die('Could not connect: ' . mysqli_error());
