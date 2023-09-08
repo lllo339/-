@@ -23,7 +23,7 @@ body {
 <?php
 include  '../test/sql/sqlconnect.php';
 include '../test/sql/table.php';
-$con = mysqli_connect("localhost","root","123456","zmk_db");
+$con = mysqli_connect("localhost","******","******","zmk_db");
 if (!$con)
   {
   die('数据库链接失败' . mysqli_error());
